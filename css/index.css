@@ -1,0 +1,38 @@
+body {
+    background-image: linear-gradient(to top right, #111827, #1f2937);
+    color: #FBA90A;
+    text-align: center;
+}
+
+#container {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#container > div {
+    background-color: #334155;
+    color: #E4F132;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+#container > div > p {
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #E4F132;
+    background-color: #1f2937;
+    color: #FBA90A;
+}
+
+#container > div > p:hover {
+    color: #E4F132;
+}
+
